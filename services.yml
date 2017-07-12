@@ -1,0 +1,5 @@
+services:
+    sample_subscriber:
+        class: SampleSubscriber
+        tags:
+            - { name: kernel.event_subscriber }
